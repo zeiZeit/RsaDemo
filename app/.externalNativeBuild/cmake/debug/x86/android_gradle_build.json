@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "E:/AndroidProject/MyTest/MyCMakeJniTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\AndroidstudioSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidProject\\MyTest\\MyCMakeJniTest\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native",
+			"buildCommand" : "E:\\AndroidstudioSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidProject\\MyTest\\MyCMakeJniTest\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target native",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/AndroidstudioSDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AndroidstudioSDK/ndk-bundle/sysroot  -Dnative_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\openssllib\\include\\openssl -isystem E:\\AndroidstudioSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\AndroidstudioSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\AndroidstudioSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/AndroidstudioSDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/AndroidProject/MyTest/MyCMakeJniTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/AndroidProject/MyTest/MyCMakeJniTest/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/AndroidstudioSDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/AndroidstudioSDK/ndk-bundle/sysroot  -Dnative_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\openssllib\\include\\openssl -isystem E:\\AndroidstudioSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\AndroidstudioSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\AndroidstudioSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/AndroidstudioSDK/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/AndroidProject/MyTest/MyCMakeJniTest/app/src/main/cpp/MyRSA.cpp",
+					"workingDirectory" : "E:/AndroidProject/MyTest/MyCMakeJniTest/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "E:/AndroidProject/MyTest/MyCMakeJniTest/app/build/intermediates/cmake/debug/obj/x86/libnative.so",
+			"toolchain" : "3837093923"
+		}
+	},
+	"toolchains" : 
+	{
+		"3837093923" : 
+		{
+			"cCompilerExecutable" : "E:/AndroidstudioSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/AndroidstudioSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+# ninja log v5
+503	3091	0	CMakeFiles/native-lib.dir/src/main/cpp/my_base64.cpp.o	58e92fcaf20dc66
+247	3720	0	CMakeFiles/native-lib.dir/src/main/cpp/rsa_openssl.cpp.o	809f2b3c62383d3f
+1	3995	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7275c51522da1828
+3995	5002	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	1381be6fcbedf31c
